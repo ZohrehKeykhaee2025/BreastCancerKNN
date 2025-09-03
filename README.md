@@ -58,7 +58,7 @@ print(result_r)
 result_rcpp <- knn_rcpp(split_data$train, split_data$test, k = 5, dist = "sse")
 print(result_rcpp)
 # Shiny Web Application
-# Launch interactive app
+## Launch interactive app
 shiny::runApp("app")
 # The Shiny app provides:
 
@@ -75,7 +75,7 @@ shiny::runApp("app")
 .  Download predictions as CSV
 
 # Performance Benchmarking
-# Run performance tests
+## Run performance tests
 source("benchmark_knn_dims.R")
 
 # Dataset Information
